@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Dilip Kumar</span></h1>
+            </div>
+        </div>
+    </div>
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/1img.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eligendi rem repellendus animi voluptatem placeat libero, consequuntur
+                        sapiente laboriosam a ducimus corrupti reiciendis facere, consectetur quis
+                        tenetur autem nobis, pariatur ipsa aspernatur aliquid rerum veritatis distinctio
+                        commodi eius? Totam dolorum minus assumenda ad consequuntur ut corporis non possimus dolorem,
+                        quidem, odio eligendi amet quasi voluptate ab hic perspiciatis repellat a exercitationem.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span></li>
+                            <li><span>Web Development</span></li>
+                            <li><span>Python</span></li>
+                            <li><span>SQL</span></li>
+                            <li><span>Data Analyst</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2 Year of experience in UI/UX</span></li>
+                            <li><span>2 Year of experience in Web Development</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-24</span><br>B.Tech(C.S.E.) from VIT Jaipur</li>
+                            <li><span>2019-20</span><br>12th from St. John's School Abu-Road</li>
+                            <li><span>2017-18</span><br>10th from Royal Rajasthan Public School Abu-Road</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="title">Contact Me</h1>
+                    <p>Email : contact@example.com</p>
+                    <p>Contact : 012356789</p>
+                    <div class="social-icons">
+                        <a href=""><img src="images/fb.jpg" height="30" width="30"></a>
+                        <a href=""><img src="images/twt.jpg" height="30" width="30"></a>
+                        <a href=""><img src="images/int.jpg" height="30" width="30"></a>
+                        <a href=""><img src="images/lkd.png" height="30" width="30"></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Dilip.<img src="images/hrt.png" height="30" width="35"></p>
+        </div>
+    </div>
+    <script src="port.js"></script>
+</body>
+
+</html>
