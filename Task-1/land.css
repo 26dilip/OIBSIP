@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+    cursor: pointer;
+}
+
+.topleft{
+    width: 50%;
+    height: 50vh;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+
+.topright{
+    width: 50%;
+    height: 50vh;
+    margin-right: 80px;
+    margin-bottom: 70px;
+    margin-top: -50px;
+}
+
+.section1{
+    height: 50vh;
+}
+
+.section1 h1{
+    font-size: 2rem;
+}
+
+.section2{
+    margin: 20px;
+    padding-left: 63px;
+    padding-right: 63px;
+}
+.section2 h1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box{
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(240, 22, 22);
+    text-align: center;
+    padding: 8px 0px;
+    border-radius: 8px;
+    margin-bottom: 60px;
+
+}
+
+.box h2{
+    font-size: 1.5rem;
+    padding: 12px 0;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    border-collapse: collapse;
+}
+
+.section3 table th{
+    width: 23vm;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+
+.section3 table td{
+    border-bottom: 2px solid black;
+}
+
+.section3 h1{
+    font-size: 2rem;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.section3{
+    padding-left: 63px;
+    padding-right: 63px;
+}
+
+.inner-footer{
+    margin: 0;
+    padding: 0;
+}
+
+.social-links{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 20px;
+
+}
+
+.social-links ul{
+    display: flex;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    padding: 10px;
+}
+
+.social-items{
+    list-style: none;
+}
+
+.social-items a{
+    padding: 10px 10px;
+    font-size: 35px;
+}
+
+.quick-links{
+    display: flex;
+    width: 560px;
+    height: 70px;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 170px;
+}
+
+.quick-links ul{
+    display: flex;
+}
+
+.quick-items{
+    list-style: none;
+}
+
+.quick-items a{
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 18px;
+    color: black;
+}
+
+.outer-footer{
+    text-align: center;
+    font-size: 18px;
+}
